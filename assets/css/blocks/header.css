@@ -1,0 +1,20 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.header__logo-image {
+    display: block;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header__menu-active {
+    color: #81b4bd;
+}

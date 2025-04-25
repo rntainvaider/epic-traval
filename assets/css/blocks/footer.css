@@ -1,0 +1,39 @@
+.footer {
+    background: #111;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.footer__copyright {
+    font-size: 14px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.contacts__item {
+    font-size: 14px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contacts__item:first-child {
+    margin-bottom: 10px;
+}
+
+.contacts__item:nth-child(2) {
+    margin-bottom: 15px;
+}
+
+.contacts__phone {
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+}
+
+.contacts__mail {
+    color: #00bda6;
+}
