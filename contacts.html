@@ -57,23 +57,84 @@
             <h3 class="contacts__title-h3">
               Личные данные
             </h3>
+            <input type="text" name="first-name" placeholder="Имя" class="contacts__input">
+            <div class="contact__wrapper-input">
+              <input type="tel" name="phone" placeholder="Телефон" class="contacts__input">
+              <input type="email" name="email" placeholder="Email" class="contacts__input">
+            </div>
             <h3 class="contacts__title-h3">
               Количество человек для тура
             </h3>
+            <div class="contacts__wrapper-radio">
+              <label class="contacts__label">
+                <input type="radio" name="contacts__radio" class="contacts__radio">
+                2 - 4 человека
+              </label>
+              <label class="contacts__label">
+                <input type="radio" name="contacts__radio" class="contacts__radio">
+                5 - 10 человек
+              </label>
+              <label for="" class="contacts__label">
+                <input type="radio" name="contacts__radio" class="contacts__radio">
+                11 человек и более
+              </label>
+            </div>
             <h3 class="contacts__title-h3">
               Какие направления вам интересны
             </h3>
+            <div class="contacts__wrapper-checkbox">
+              <label class="contacts__label">
+                <input type="checkbox" class="contacts__checkbox">
+                Трекинг туры, походы по горам и пересеченной местности.
+              </label>
+              <label class="contacts__label">
+                <input type="checkbox" class="contacts__checkbox">
+                Восхождения на вершины.
+              </label>
+              <label class="contacts__label">
+                <input type="checkbox" class="contacts__checkbox">
+                Экзотические джунгли, вулканы.
+              </label>
+              <label class="contacts__label">
+                <input type="checkbox" class="contacts__checkbox">
+                Комбинированные: море, горы, города, лес.
+              </label>
+            </div>
+            <button class="contacts__button">
+              Отправить заявку
+            </button>
           </form>
           <div class="contacts__inner">
             <div class="contacts__addreass">
               <h2 class="contacts__title-h2">
                 Телефон и адрес
               </h2>
+              <div class="contacts__addreass-wrapper">
+                <div class="contacts__addreass-inner">
+                  <img src="./assets/images/phone.svg" alt="Телефон" class="contacts__addreass-image">
+                  <a href="tel:+79054561234" class="contacts__addreass-text">
+                    +7 (905) 456-12-34
+                  </a>
+                </div>
+                <div class="contacts__addreass-inner">
+                  <img src="./assets/images/mail.svg" alt="Почта" class="contacts__addreass-image">
+                  <a href="mailto:info@epictravel.ru" class="contacts__addreass-text">
+                    info@epictravel.ru
+                  </a>
+                </div>
+                <div class="contacts__addreass-inner">
+                  <img src="./assets/images/map.svg" alt="Карта" class="contacts__addreass-image">
+                  <p class="contacts__addreass-text">
+                    г. Москва, Рязанский проспект 54, офис 112.
+                  </p>
+                </div>
+              </div>
             </div>
             <div class="contacts__map">
               <h2 class="contacts__title-h2">
                 Карта
               </h2>
+              <img src="./assets/images/map.jpg" alt="Карта" width="470" height="345" class="contacts__map-image">
             </div>
           </div>
         </div>
